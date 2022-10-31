@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <script src="app.js"></script>
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid" id="grid0" onclick="clicked(0);"></div>
+                <div class="grid" id="grid1" onclick="clicked(1);"></div>
+                <div class="grid" id="grid2" onclick="clicked(2);"></div>
+                <div class="grid" id="grid3" onclick="clicked(3);"></div>
+                <div class="grid" id="grid4" onclick="clicked(4);"></div>
+                <div class="grid" id="grid5" onclick="clicked(5);"></div>
+                <div class="grid" id="grid6" onclick="clicked(6);"></div>
+                <div class="grid" id="grid7" onclick="clicked(7);"></div>
+                <div class="grid" id="grid8" onclick="clicked(8);"></div>
+            </div>
+            <div class="lines horizontal" id="line1"></div>
+            <div class="lines horizontal" id="line2"></div>
+            <div class="lines horizontal" id="line3"></div>
+            <div class="lines vertical" id="line4"></div>
+            <div class="lines vertical" id="line5"></div>
+            <div class="lines vertical" id="line6"></div>
+            <div class="lines diagonal" id="line7"></div>
+            <div class="lines diagonal" id="line8"></div>
+            <button id="reset" onclick="reset();">Reset</button>
+        </div>
+        <form action="https://rcalvin2005.github.io/Code-Playground-Homepage/">
+            <button id="back">Home</button>
+        </form>
+    </body>
+</html>
